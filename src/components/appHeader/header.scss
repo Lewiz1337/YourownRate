@@ -1,0 +1,42 @@
+@import "../../style/style.scss";
+
+header{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-color: $dark;
+    padding: 0 175px 0 175px;
+    height: 100px;
+    
+    .wrapper{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items:center;
+
+        img{
+            height: 78px;
+        }
+        .search{
+            height: 35px;
+            width: 118px;
+            display: flex;
+            justify-content: space-around;
+            background-color: $grey;
+            border-radius: 5px;
+            align-items: center;
+            font-size: 18px;
+            input{
+                width: 50%;
+                border: none;
+                background-color: $grey;
+                outline: none;
+                
+            }
+            img{
+                height: 19px;
+            }
+        }
+    }
+}

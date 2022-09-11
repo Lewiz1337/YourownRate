@@ -1,0 +1,100 @@
+@import '../../style/style.scss';
+
+.category__item{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    
+    height: 400px;
+    margin: auto;
+    margin-bottom: 24px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-info{
+        font-size: 100px;
+        font-weight: 800;
+        width: 50%;   
+        padding-left: 78px;     
+        
+    }
+    .rate{
+        &__wrapper{
+            width: 45%;
+            background-color: hsl(0, 0%, 80%);
+            opacity: 90%;
+            border-radius: 20px;
+            height: 370px
+            ;
+        }
+        &__top{
+            .pedestal{
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                color: black;
+                margin-top: 60px;
+                &__text{
+                    color: black;
+                }
+                .height{
+                    width: 96px;
+                    border-radius: 10px;
+                    border: 5px solid black;
+                }
+                &__first-height{
+                    height: 120px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                &__second-height{
+                    height: 86px;
+                }
+                &__third-height{
+                    height: 67px;
+                }
+                &__item{
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                    flex-direction: column;
+                    align-content: flex-end;
+                }
+            }
+            
+        }
+        &__list{
+            ul{
+                li{
+                    display: flex;
+                    justify-content: space-between;
+                    width: 88%;
+                    // background-color: white;
+                    border-radius: 10px;
+                    margin-top: 10px;
+                    padding: 0 30px 0 30px;
+                    
+                    p{
+                        color: black;
+                        font-weight: 600;
+                    }
+                }
+
+            }
+            &-first{
+                background-color: #E6B85C;
+            }
+            &-second{
+                background-color: #B5B5B5;
+            }
+            &-third{
+                background-color: #9A462D;
+            }
+        }
+    }
+
+
+
+}

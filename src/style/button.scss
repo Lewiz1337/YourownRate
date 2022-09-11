@@ -1,0 +1,23 @@
+@import './variables.scss';
+
+button{
+    color: $black;
+    height: 52px;
+    width: max-content;
+    padding: 0 19px 0 19px;
+    margin-right: 16px;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    transition-duration: 1s;
+
+    &:target{
+        box-shadow: inset black;
+    }
+    &:hover{
+        background-color: $mint;
+        
+    }
+
+}

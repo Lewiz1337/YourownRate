@@ -1,0 +1,35 @@
+@import "../../style/style.scss";
+
+footer{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-color: $dark;
+    padding: 0 175px 0 175px;
+    height: 100px;
+    
+    .wrapper{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items:center;
+        .socials{
+            display: flex;
+            width: 17% ;
+            justify-content: space-between;
+        }
+        img{
+            height: 78px;
+        }
+        a{  
+            color: white;
+            img{
+                height: 23px;
+            }
+        }
+        .license{
+            color: white;
+        }
+    }
+}
